@@ -1,0 +1,12 @@
+.place__paragraph {
+  max-width: 484px;
+  display: grid;
+  grid-template-rows: max-content;
+  gap: 26px;
+}
+
+@media (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 16px 0;
+  }
+}

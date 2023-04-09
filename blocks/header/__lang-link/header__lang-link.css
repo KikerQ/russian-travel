@@ -1,0 +1,7 @@
+.header__lang-link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  padding-top: 18px;
+  text-decoration: none;
+}

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="body">
@@ -15,10 +14,10 @@
     <main class="main">
 
         <header class="header">
-            <a class="header__logo" href="#"></a>
+            <a class="header__logo" href="https://kikerq.github.io/russian-travel"></a>
             <div class="header__lang-link">
-                <a href="#" class="header__lang-text header__lang-text-ru">Ru</a>
-                <a href="#" class="header__lang-text header__lang-text-en">En</a>
+                <a class="header__lang-text header__lang-text--ru" href="https://kikerq.github.io/russian-travel">Ru</a>
+                <a class="header__lang-text header__lang-text--en" href="#">En</a>
             </div>
         </header>
 
@@ -30,36 +29,33 @@
                 <source srcset="./Image/lead-pic_768.jpg" type="image/jpeg" media="(max-width: 768px)">
                 <img class="lead-pic" src="./Image/lead-pic.jpg" alt="Дорого по России">
             </picture>
-            <p class="capption">ваша полка - верхняя</p>
+            <p class="lead__capption">ваша полка - верхняя</p>
         </section>
 
         <section class="intro">
-            <div class="intro__wrap">
-                <h2 class="intro__title">Чего мы там не видели?</h2>
-                <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
-                    планируют
-                    провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это
-                    целая
-                    вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть
-                    все
-                    эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например,
-                    Вера
-                    Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
-                    проехала
-                    20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные
-                    вашего
-                    отпуска.</p>
-                <ul class="intro__list">
-                    <li class="intro__item">Часовых поясов <span class="intro__list_span">11</span></li>
-                    <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__list_span">12</span>
-                    </li>
-                    <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span
-                            class="intro__list_span">16</span>
-                    </li>
-                    <li class="intro__item">Природных заповедников <span class="intro__list_span">105</span></li>
-                    <li class="intro__item">Аэропортов <span class="intro__list_span">241</span></li>
-                </ul>
-            </div>
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
+                планируют
+                провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это
+                целая
+                вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть
+                все
+                эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например,
+                Вера
+                Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
+                проехала
+                20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные
+                вашего
+                отпуска.</p>
+            <ul class="intro__list">
+                <li class="intro__item">Часовых поясов <span class="intro__list_span">11</span></li>
+                <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__list_span">12</span>
+                </li>
+                <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__list_span">16</span>
+                </li>
+                <li class="intro__item">Природных заповедников <span class="intro__list_span">105</span></li>
+                <li class="intro__item">Аэропортов <span class="intro__list_span">241</span></li>
+            </ul>
         </section>
 
         <div class="photo-grid">
@@ -82,7 +78,7 @@
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__wrap_url">
                     <p class="place__url_heading">url</p>
-                    <a href="#" class="place__url_link">park-kosa.ru</a>
+                    <a href="http://park-kosa.ru" class="place__url_link">park-kosa.ru</a>
                 </div>
                 <img class="place__img" src="./Image/kosa.jpg" alt="Куршская коса">
                 <div class="place__paragraph">
@@ -100,7 +96,8 @@
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__wrap_url">
                     <p class="place__url_heading">URL</p>
-                    <a href="#" class="place__url_link">National Geographic</a>
+                    <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                        class="place__url_link">National Geographic</a>
                 </div>
                 <img class="place__img" src="./Image/kolskii.jpg" alt="Кольский">
                 <div class="place__paragraph">
@@ -119,7 +116,7 @@
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__wrap_url">
                     <p class="place__url_heading">URL</p>
-                    <a href="#" class="place__url_link">YouTube</a>
+                    <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__url_link">YouTube</a>
                 </div>
                 <img class="place__img" src="./Image/altaii.jpg" alt="Алтай">
                 <div class="place__paragraph">
@@ -136,7 +133,7 @@
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__wrap_url">
                     <p class="place__url_heading">URL</p>
-                    <a href="#" class="place__url_link">https://vk.com/baikalmile</a>
+                    <a href="https://vk.com/baikalmile" class="place__url_link">https://vk.com/baikalmile</a>
                 </div>
                 <img class="place__img" src="./Image/baiikal.jpg" alt="Зимний Байкал">
                 <div class="place__paragraph">
@@ -153,7 +150,7 @@
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__wrap_url">
                     <p class="place__url_heading">URL</p>
-                    <a href="#" class="place__url_link">http://vodlozero.ru/</a>
+                    <a href="http://vodlozero.ru" class="place__url_link">http://vodlozero.ru/</a>
                 </div>
                 <img class="place__img" src="./Image/koreliya.jpg" alt="Карелия">
                 <div class="place__paragraph">
@@ -171,7 +168,7 @@
         </section>
 
         <section class="cover">
-            <a href="#" class="cover__link">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
                 <h2 class="cover__title">
                     До Байкала «на собаках»
                 </h2>
@@ -184,13 +181,14 @@
 
         </section>
 
+
         <footer class="footer">
             <nav class="footer__item">
-                <a href="#" class="footer_link">Погода</a>
-                <a href="#" class="footer_link">Карты</a>
-                <a href="#" class="footer_link">Расписание</a>
-                <a href="#" class="footer_link">Календарь</a>
-                <a href="#" class="footer_link">Путешествия</a>
+                <a href="https://yandex.ru/pogoda" class="footer__item-link">Погода</a>
+                <a href="https://yandex.ru/maps" class="footer__item-link">Карты</a>
+                <a href="https://rasp.yandex.ru" class="footer__item-link">Расписание</a>
+                <a href="https://calendar.yandex.ru" class="footer__item-link">Календарь</a>
+                <a href="https://travel.yandex.ru" class="footer__item-link">Путешествия</a>
             </nav>
             <p class="copyright">&copy; 2023 Михаил Чирков</p>
         </footer>

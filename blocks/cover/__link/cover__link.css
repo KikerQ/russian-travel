@@ -1,0 +1,22 @@
+.cover__link {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(42, 44, 47, 0.3);
+}
+
+@media (max-width: 560px) {
+  .cover__link {
+    gap: 16px;
+  }
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  opacity: 0.8;
+}
