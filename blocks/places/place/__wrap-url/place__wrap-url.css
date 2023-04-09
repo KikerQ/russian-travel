@@ -1,11 +1,11 @@
-.place__wrap_url {
+.place__wrap-url {
   display: grid;
   align-content: end;
   gap: 12px;
 }
 
 @media (max-width: 767px) {
-  .place__wrap_url {
+  .place__wrap-url {
     padding-left: 16px;
   }
 }
