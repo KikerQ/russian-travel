@@ -19,3 +19,9 @@
     margin: 0 0 88px 16px;
   }
 }
+
+@media (max-width: 560px) {
+  .lead__capption {
+    margin: 0 0 64px 16px;
+  }
+}

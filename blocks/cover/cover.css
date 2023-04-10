@@ -16,7 +16,6 @@
 
 @media (max-width: 768px) {
   .cover {
-    background-image: url(../../Image/__background768.png);
     min-height: 480px;
   }
 }
