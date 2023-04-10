@@ -1,4 +1,4 @@
-.place__paragraph {
+.place__wrap-paragraph {
   max-width: 484px;
   display: grid;
   grid-template-rows: max-content;
@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 767px) {
-  .place__paragraph {
+  .place__wrap-paragraph {
     padding: 0 16px 0;
   }
 }

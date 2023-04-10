@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__wrap-link {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
