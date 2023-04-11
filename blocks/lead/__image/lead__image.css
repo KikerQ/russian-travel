@@ -1,11 +1,11 @@
-.lead-pic {
+.lead__image {
   margin: 64px 0 8px;
   width: 100%;
   height: auto;
 }
 
 @media (max-width: 560px) {
-  .lead-pic {
+  .lead__image {
     margin: 40px 0 8px;
   }
 }

@@ -14,7 +14,7 @@
 
 @media (max-width: 767px) {
   .place__title {
-    font-size: 10vw;
+    font-size: 8vw;
     text-align: start;
     padding-left: 16px;
   }
