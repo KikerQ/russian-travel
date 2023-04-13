@@ -4,6 +4,7 @@
   line-height: 1.22;
   text-decoration-line: underline;
   color: #fff;
+  justify-self: flex-start;
 }
 
 .place__url-link:hover {
